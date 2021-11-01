@@ -6,22 +6,22 @@ var b = 200;
 var c = 300;
 
 //let pantee ;
-//let lights;
+let lights;
 
-//function preload(){
+function preload(){
   //pantee = loadImage('pantee.png');
-  //lights = loadImage('lights.png');
+  lights = loadImage('lights.png');
 }
 
 function setup() {
-  createCanvas(800,400);
+  createCanvas(displayWidth,displayHeight);
   
 }
 
 function draw() {
   background(0,0,0);
    
-  //image(lights,0,0,400,300);
+  image(lights,0,0,400,300);
   
   
   textSize(100);
