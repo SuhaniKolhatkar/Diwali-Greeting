@@ -9,7 +9,7 @@ let pantee ;
 let lights;
 
 function preload(){
-  pantee = loadImage('pantee.png');
+  //pantee = loadImage('pantee.png');
   lights = loadImage('lights.png');
 }
 
