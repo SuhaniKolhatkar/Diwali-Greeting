@@ -21,7 +21,7 @@ function setup() {
 function draw() {
   //background(0,0,0);
    
-  image(lights,0,0,width,height);
+  image(lights,0,0,400,300);
   
   
   textSize(100);
