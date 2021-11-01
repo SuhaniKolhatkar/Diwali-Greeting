@@ -5,12 +5,12 @@ var a = 100;
 var b = 200;
 var c = 300;
 
-let pantee ;
-let lights;
+//let pantee ;
+//let lights;
 
-function preload(){
+//function preload(){
   //pantee = loadImage('pantee.png');
-  lights = loadImage('lights.png');
+  //lights = loadImage('lights.png');
 }
 
 function setup() {
@@ -19,9 +19,9 @@ function setup() {
 }
 
 function draw() {
-  //background(0,0,0);
+  background(0,0,0);
    
-  image(lights,0,0,400,300);
+  //image(lights,0,0,400,300);
   
   
   textSize(100);
@@ -32,17 +32,17 @@ function draw() {
  textSize(40);
   fill(81, 240, 7);
   s1 = "The Demon is always within."
-  //text(s1,displayWidth/2-150,325);
+  text(s1,displayWidth/2-150,325);
   s2 = "The Godess is always within."
-  //text(s2,width/2-500,375);
+  text(s2,width/2-500,375);
   s3 = "The battle too,is always within."
-  //text(s3,width/2-150,425);
+  text(s3,width/2-150,425);
   s4 = "And so is the TRIUMPH of one, over the other."
-  //text(s4,width/2-150,475); 
+  text(s4,width/2-150,475); 
   s5 = "Which one, over which one ? "
-  //text(s5,width/2-150,525);
+  text(s5,width/2-150,525);
   s6 = "That choice is also, always within."
-  //text(s6,width/2-150,575);
+  text(s6,width/2-150,575);
   tara ();
   star ();
   
