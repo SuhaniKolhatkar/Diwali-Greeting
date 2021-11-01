@@ -32,7 +32,7 @@ function draw() {
  textSize(40);
   fill(81, 240, 7);
   s1 = "The Demon is always within."
-  text(s1,displayWidth/2-150,325);
+  text(s1,width/2-150,325);
   s2 = "The Godess is always within."
   text(s2,width/2-500,375);
   s3 = "The battle too,is always within."
@@ -201,8 +201,8 @@ function draw() {
 
 
 function tara(){
-  rX = random(width);
-    rY = random(height);
+  rX = random(255);
+    rY = random(255);
     
     fill(255);
     stroke(255);
@@ -218,8 +218,8 @@ function tara(){
     line(rX,rY,rX+15*cos(PI/4),rY+15*sin(PI/4));
 }
 function star (){
-  rX = random(width);
-    rY = random(height);
+  rX = random(255);
+    rY = random(255);
     
     fill(255);
     stroke(255);
